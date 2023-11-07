@@ -1,0 +1,97 @@
+.App{
+    min-height:100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:  'Calibri', sans-serif;
+}
+
+.adoptii{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.adoptie{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    width: 60%;
+}
+
+
+.butonSave{
+    background-color:  rgb(1, 117, 57);
+    color:white;
+    transition: 0.3s;
+    border: none;
+    padding: 10px;
+}
+
+.butonSave:hover{
+    background-color: white;
+    color:  rgb(1, 117, 57);
+}
+
+.butonCancel{
+    border: none;
+    background-color:rgb(216, 104, 132);
+    color:white;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.butonCancel:hover{
+    background-color: white;
+    color:rgb(216, 104, 132);
+}
+
+
+.pozaAdoptie{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.numeBlanitz{
+    font-size: 35px;
+}
+
+.datanBlanitz{
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+}
+
+.tipBlanitz{
+    color: rgb(63, 63, 63);
+    font-size: 21px;
+}
+
+
+.containerBlanitzS{
+    height: 100vh;
+    width: 100%;
+}
+
+.postare{
+    background-color: aqua;
+}
